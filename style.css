@@ -54,14 +54,13 @@ body {
     background-position: center bottom;
     background-size: cover;
     min-height: 2000px;
-    position: relative;
-    /* bottom:100px; */
-    position: relative;
-    top: 100px;
     min-height: 2000px;
-    /* vertical-align: bottom; */
 }
 
+main, footer{
+    position: relative;
+    top: 100px;
+}
 
 body, footer {
     max-width: 1000px;
