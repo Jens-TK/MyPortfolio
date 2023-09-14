@@ -87,7 +87,9 @@ body, footer {
 .container{
     width: auto;
     min-height: 500px;
-    margin-top: 50px;
+    height: auto;
+    margin: 50px 10px;
+    overflow: hidden;
 }
 
 .contact_form{
@@ -108,10 +110,15 @@ form input{
     margin-bottom: 10px;
 }
 
+.links-to-socials{
+    margin: 20px 0px;
+}
+
 .links-to-socials a{
     color: white;
     transition: 0.2s;
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .links-to-socials a:hover{
