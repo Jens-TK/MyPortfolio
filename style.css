@@ -1,0 +1,126 @@
+
+*{
+    /* border: 1px red dashed; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+
+ul.navigation{
+    text-align: center;
+
+}
+
+
+ul.navigation li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    margin: 5px 50px;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+
+
+h1 {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.one-liner{
+    text-align: center;
+    font-size: large;
+}
+
+body {
+    /* picture from unsplashed https://unsplash.com/photos/QsWG0kjPQRY*/
+    
+    background-image: url(Images/filip-zrnzevic-QsWG0kjPQRY-unsplash_short.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 2000px;
+
+}
+
+body, footer {
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+.bad-coding-joke, .Current_progress{
+    box-sizing: border-box;
+    width: 450px;
+    background-color: rgba(63, 122, 77, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+}
+
+.Current_progress{
+    float: left;
+}
+
+.bad-coding-joke{
+    float: right;
+    margin-top: 50px;
+
+}
+
+.bad-coding-joke figure{
+    text-align: center;
+}
+
+.Current_progress p{
+    font-weight: bold;
+}
+
+.Current_progress ol li{
+    margin-bottom: 10px;
+}
+
+.container{
+    width: auto;
+    min-height: 500px;
+    margin-top: 50px;
+}
+
+.contact_form{
+    box-sizing: border-box;
+    width: auto;
+    background-color: rgba(63, 122, 77, 0.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+form{
+    text-align: left;
+}
+
+form input{
+    margin-bottom: 10px;
+}
+
+.links-to-socials a{
+    color: white;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.links-to-socials a:hover{
+    color: gray;
+}
+
+ion-icon{
+    height: 50px;
+    width: 50px;
+}
+
+
