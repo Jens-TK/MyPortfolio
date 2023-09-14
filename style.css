@@ -6,6 +6,17 @@
 }
 
 
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: hsl(132, 5%, 85%);;
+    width: 100%;
+    border-bottom: 2px rgb(56, 82, 56, 0.5) solid;
+    z-index: 1;
+    /* max-height: 100px; */
+}
+
 ul.navigation{
     text-align: center;
 
@@ -38,14 +49,19 @@ h1 {
 
 body {
     /* picture from unsplashed https://unsplash.com/photos/QsWG0kjPQRY*/
-    
     background-image: url(Images/filip-zrnzevic-QsWG0kjPQRY-unsplash_short.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
     min-height: 2000px;
-
+    position: relative;
+    /* bottom:100px; */
+    position: relative;
+    top: 100px;
+    min-height: 2000px;
+    /* vertical-align: bottom; */
 }
+
 
 body, footer {
     max-width: 1000px;
@@ -68,7 +84,7 @@ body, footer {
 
 .bad-coding-joke{
     float: right;
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 
@@ -86,9 +102,9 @@ body, footer {
 
 .container{
     width: auto;
-    min-height: 500px;
+    min-height: 350px;
     height: auto;
-    margin: 50px 10px;
+    margin: 50px 10px 30px;
     overflow: hidden;
 }
 
